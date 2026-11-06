@@ -1,0 +1,122 @@
+{
+  "method": "WSO feature selection (binary transfer + wrapper HGB)",
+  "seed": 45,
+  "wso": {
+    "n_sharks": 16,
+    "max_iters": 20,
+    "lb": -6.0,
+    "ub": 6.0,
+    "best_fitness": -0.8974284507951752,
+    "convergence_curve": [
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8938574143664062,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8957645715651198,
+      -0.8967097905348864,
+      -0.8967097905348864,
+      -0.8967097905348864,
+      -0.8974284507951752
+    ]
+  },
+  "fitness": {
+    "proxy_per_class": 20000,
+    "val_ratio": 0.2,
+    "alpha_feature_penalty": 0.02,
+    "proxy_best_f1_attack": 0.9085676913015043
+  },
+  "model": {
+    "classifier": "HistGradientBoostingClassifier",
+    "fixed_params": {
+      "learning_rate": 0.1,
+      "max_depth": 10,
+      "max_leaf_nodes": 127,
+      "min_samples_leaf": 20,
+      "l2_regularization": 0.001,
+      "max_iter": 200
+    }
+  },
+  "selected_features": {
+    "k": 44,
+    "d": 79,
+    "names": [
+      "Src Port",
+      "Dst Port",
+      "Protocol",
+      "Flow Duration",
+      "Total Bwd packets",
+      "Total Length of Bwd Packet",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Min",
+      "Bwd Packet Length Std",
+      "Flow Packets/s",
+      "Flow IAT Mean",
+      "Flow IAT Max",
+      "Fwd IAT Mean",
+      "Fwd IAT Max",
+      "Fwd IAT Min",
+      "Bwd IAT Std",
+      "Fwd PSH Flags",
+      "Fwd URG Flags",
+      "Fwd Header Length",
+      "Bwd Header Length",
+      "Packet Length Min",
+      "Packet Length Std",
+      "RST Flag Count",
+      "ACK Flag Count",
+      "Average Packet Size",
+      "Fwd Segment Size Avg",
+      "Bwd Segment Size Avg",
+      "Fwd Bytes/Bulk Avg",
+      "Fwd Packet/Bulk Avg",
+      "Fwd Bulk Rate Avg",
+      "Bwd Bytes/Bulk Avg",
+      "Bwd Packet/Bulk Avg",
+      "Subflow Fwd Packets",
+      "FWD Init Win Bytes",
+      "Bwd Init Win Bytes",
+      "Fwd Act Data Pkts",
+      "Fwd Seg Size Min",
+      "Active Mean",
+      "Active Max",
+      "Active Min",
+      "Idle Std",
+      "Idle Min"
+    ]
+  },
+  "train_balanced": {
+    "attack_to_benign": 1.0,
+    "benign": 278831,
+    "attack_sampled": 278831,
+    "rows": 557662
+  },
+  "test_full": {
+    "rows_test_streamed": 8257733,
+    "confusion_matrix": {
+      "tn": 113637,
+      "fp": 5862,
+      "fn": 845970,
+      "tp": 7292264
+    },
+    "precision_attack": 0.9991967801049201,
+    "recall_attack": 0.896049929259837,
+    "f1_attack": 0.9448165241028326,
+    "roc_auc_sample": 0.9675419766083463,
+    "pr_auc_sample": 0.9994837891096624,
+    "auc_sample_size_used": 1000000
+  },
+  "runtime_sec_total": 373.06499791145325
+}

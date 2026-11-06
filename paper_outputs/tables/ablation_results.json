@@ -1,0 +1,114 @@
+[
+  {
+    "alpha": 0.005,
+    "population": 8,
+    "f1_score": 0.9537219966900056,
+    "features": 42,
+    "runtime_sec": 139.28613877296448
+  },
+  {
+    "alpha": 0.005,
+    "population": 12,
+    "f1_score": 0.9537219966900056,
+    "features": 42,
+    "runtime_sec": 168.670325756073
+  },
+  {
+    "alpha": 0.005,
+    "population": 16,
+    "f1_score": 0.9606978914274139,
+    "features": 40,
+    "runtime_sec": 218.6166286468506
+  },
+  {
+    "alpha": 0.005,
+    "population": 20,
+    "f1_score": 0.9722596787693151,
+    "features": 35,
+    "runtime_sec": 260.08994460105896
+  },
+  {
+    "alpha": 0.01,
+    "population": 8,
+    "f1_score": 0.9537219966900056,
+    "features": 42,
+    "runtime_sec": 146.44617676734924
+  },
+  {
+    "alpha": 0.01,
+    "population": 12,
+    "f1_score": 0.9737815355819047,
+    "features": 32,
+    "runtime_sec": 173.53246140480042
+  },
+  {
+    "alpha": 0.01,
+    "population": 16,
+    "f1_score": 0.9735891289388314,
+    "features": 33,
+    "runtime_sec": 224.38433051109314
+  },
+  {
+    "alpha": 0.01,
+    "population": 20,
+    "f1_score": 0.9722596787693151,
+    "features": 35,
+    "runtime_sec": 248.46357250213623
+  },
+  {
+    "alpha": 0.02,
+    "population": 8,
+    "f1_score": 0.9206776035011865,
+    "features": 36,
+    "runtime_sec": 142.90489792823792
+  },
+  {
+    "alpha": 0.02,
+    "population": 12,
+    "f1_score": 0.9737815355819047,
+    "features": 32,
+    "runtime_sec": 170.82331347465515
+  },
+  {
+    "alpha": 0.02,
+    "population": 16,
+    "f1_score": 0.9735891289388314,
+    "features": 33,
+    "runtime_sec": 262.19090962409973
+  },
+  {
+    "alpha": 0.02,
+    "population": 20,
+    "f1_score": 0.9722596787693151,
+    "features": 35,
+    "runtime_sec": 286.360230922699
+  },
+  {
+    "alpha": 0.05,
+    "population": 8,
+    "f1_score": 0.9216924417420456,
+    "features": 32,
+    "runtime_sec": 150.1602005958557
+  },
+  {
+    "alpha": 0.05,
+    "population": 12,
+    "f1_score": 0.9731808814114243,
+    "features": 31,
+    "runtime_sec": 172.8953151702881
+  },
+  {
+    "alpha": 0.05,
+    "population": 16,
+    "f1_score": 0.9735891289388314,
+    "features": 33,
+    "runtime_sec": 218.56753396987915
+  },
+  {
+    "alpha": 0.05,
+    "population": 20,
+    "f1_score": 0.9722596787693151,
+    "features": 35,
+    "runtime_sec": 242.4564459323883
+  }
+]

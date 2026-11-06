@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Efficiency and performance comparison of all models (mean $\pm$ std over seeds).}
+\label{tab:efficiency}
+\begin{tabular}{lllll}
+\toprule
+Method & F1 (Attack) & ROC-AUC & PR-AUC & Runtime (s) \\
+\midrule
+Baseline (HGB) & 0.9660 ± 0.0002 & 0.9811 ± 0.0004 & 0.9997 ± 0.0000 & 86.0 ± 12.3 \\
+AutoML (Optuna-HGB) & 0.9731 ± 0.0006 & 0.9789 ± 0.0003 & 0.9997 ± 0.0000 & 207.5 ± 60.6 \\
+WSO-FS & 0.9654 ± 0.0110 & 0.9754 ± 0.0037 & 0.9996 ± 0.0001 & 322.6 ± 23.6 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+
+# Data (download it yourself, see README)
+data/
+*.parquet
+*.csv
+!paper_outputs/tables/*.csv
+
+# Generated train/test split (large)
+outputs/train_dataset/
+outputs/test_dataset/

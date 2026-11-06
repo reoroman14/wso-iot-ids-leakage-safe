@@ -1,0 +1,32 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "seed": 43,
+  "train_balanced": {
+    "attack_to_benign": 1.0,
+    "rows": 557662,
+    "y0": 278831,
+    "y1": 278831
+  },
+  "test_full": {
+    "rows_streamed": 8257733,
+    "confusion_matrix": {
+      "tn": 118675,
+      "fp": 824,
+      "fn": 547488,
+      "tp": 7590746
+    },
+    "precision_attack": 0.9998914585520519,
+    "recall_attack": 0.9327264367183347,
+    "f1_attack": 0.9651418415639509
+  },
+  "test_auc_sample": {
+    "sample_size": 1000000,
+    "roc_auc": 0.9806585832391309,
+    "pr_auc": 0.9997102538826663
+  },
+  "num_features": 79,
+  "clip_value": 1000000000.0,
+  "batch_size": 200000,
+  "runtime_sec": 60.136016607284546,
+  "notes": "AUC/PR-AUC computed on reservoir sample of test scores to avoid storing 8.2M scores in RAM."
+}

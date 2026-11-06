@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Performance of baseline, AutoML, and WSO-FS models on full test stream (mean $\pm$ std over 5 seeds).}
+\label{tab:baseline_results}
+\begin{tabular}{lllllll}
+\toprule
+Model & Precision & Recall & F1 & ROC-AUC & PR-AUC & #Features \\
+\midrule
+Baseline (HGB) & 0.9999 ± 0.0000 & 0.9342 ± 0.0004 & 0.9660 ± 0.0002 & 0.9811 ± 0.0004 & 0.9997 ± 0.0000 & 79.0 ± 0.0 \\
+AutoML (Optuna-HGB) & 0.9992 ± 0.0000 & 0.9484 ± 0.0012 & 0.9731 ± 0.0006 & 0.9789 ± 0.0003 & 0.9997 ± 0.0000 & 79.0 ± 0.0 \\
+WSO-FS & 0.9992 ± 0.0000 & 0.9340 ± 0.0204 & 0.9654 ± 0.0110 & 0.9754 ± 0.0037 & 0.9996 ± 0.0001 & 36.8 ± 3.7 \\
+\bottomrule
+\end{tabular}
+\end{table}

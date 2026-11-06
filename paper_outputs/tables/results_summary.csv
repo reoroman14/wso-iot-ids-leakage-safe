@@ -1,0 +1,4 @@
+Model,Precision_mean,Precision_std,Recall_mean,Recall_std,F1_mean,F1_std,ROC-AUC_mean,ROC-AUC_std,PR-AUC_mean,PR-AUC_std,Features_mean,Features_std,Throughput_mean,Throughput_std
+AutoML,0.999,0.0,0.948,0.001,0.973,0.001,0.979,0.0,1.0,0.0,79.0,0.0,0.309,0.087
+Baseline,1.0,0.0,0.934,0.0,0.966,0.0,0.981,0.0,1.0,0.0,79.0,0.0,0.708,0.095
+WSO-FS,0.999,0.0,0.934,0.02,0.965,0.011,0.975,0.004,1.0,0.0,36.8,3.701,0.187,0.013
